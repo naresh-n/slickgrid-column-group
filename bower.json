@@ -1,0 +1,23 @@
+{
+  "name": "slickgrid-column-group",
+  "version": "0.0.1",
+  "homepage": "https://github.com/naresh-n/slickgrid-column-group.git",
+  "authors": [
+    "Naresh Nagabhushanam <nnaresh@outlook.com>"
+  ],
+  "description": "plugin for slickgrid column group",
+  "keywords": [
+    "slickgrid"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "css",
+    "examples",
+    "lib",
+    "src",
+    ".gitignore",
+    "gruntfile.js",
+    "package.json",
+    "README.md"
+  ]
+}

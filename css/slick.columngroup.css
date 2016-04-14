@@ -1,0 +1,15 @@
+.slick-group-header-columns {
+  position: relative;
+  white-space: nowrap;
+  cursor: default;
+  overflow: hidden;
+}
+
+.slick-group-header-columns .slick-header-column {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.slick-group-header-columns .slick-column-name {
+  text-align: center;
+}
