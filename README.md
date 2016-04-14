@@ -16,8 +16,9 @@ Add a new property called "groupName" in the slickgrid column definition. Plugin
 ######Features
 
 * Plugin exposed two methods **enableColumnGrouping** and **removeColumnGrouping**.
-* Auto grouped column size when user resize columns.
+* Auto size applied on grouped column when user resize columns.
 * Column reorder restricted within its group.
 
 
 ######Example
+https://rawgit.com/naresh-n/slickgrid-column-group/master/examples/example-1.html
