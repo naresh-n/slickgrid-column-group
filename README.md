@@ -1,10 +1,18 @@
 ### slickgrid-column-group
 
-This plug-in is for slickgrid to group columns.
+This plug-in is for slickgrid to group one level columns.
 
-######Column Configuration
+######Browser
 
-Add a new property called "groupName" in the slickgrid column definition. Plugin used this property to group columns.
+    <link rel="stylesheet" href="../css/slick.columngroup.css" type="text/css"/>
+    <script src="../src/slick.columngroup.js"></script>
+
+######Bower
+    bower slickgrid-column-group
+    
+######Usage
+
+Add a new property called "groupName" in the slickgrid column definition.
 
         {id: "title", name: "Title", field: "title", width:100, groupName: "Group-1"},
         {id: "duration", name: "Duration", field: "duration", width:100, groupName: "Group-1"},
@@ -13,6 +21,17 @@ Add a new property called "groupName" in the slickgrid column definition. Plugin
         {id: "finish", name: "Finish", field: "finish", width:100}
 
 
+        grid = new Slick.Grid("#myGrid", data, columns, options);
+        plugin = new Slick.ColumnGroup()
+        grid.registerPlugin(plugin);
+        grid.render();
+        
+        plugin.enableColumnGrouping();
+        
+        plugin.removeColumnGrouping();
+        
+        
+        
 ######Features
 
 * Plugin exposed two methods **enableColumnGrouping** and **removeColumnGrouping**.
