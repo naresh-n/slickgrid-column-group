@@ -28,6 +28,8 @@ Add a new property called "groupName" in the slickgrid column definition.
         
         plugin.enableColumnGrouping();
         
+        [OR]
+        
         plugin.removeColumnGrouping();
         
         
@@ -35,7 +37,7 @@ Add a new property called "groupName" in the slickgrid column definition.
 ######Features
 
 * Plugin exposed two methods **enableColumnGrouping** and **removeColumnGrouping**.
-* Auto size applied on grouped column when user resize columns.
+* Auto size applied on grouped header when user resize columns.
 * Column reorder restricted within its group.
 
 
