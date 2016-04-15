@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/naresh-n/slickgrid-column-group.svg?branch=master)](https://travis-ci.org/naresh-n/slickgrid-column-group)
+
 ### slickgrid-column-group
 
 This plug-in is for slickgrid to group one level columns.
