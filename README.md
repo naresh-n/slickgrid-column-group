@@ -8,7 +8,7 @@ This plug-in is for slickgrid to group one level columns.
     <script src="../src/slick.columngroup.js"></script>
 
 ######Bower
-    bower slickgrid-column-group
+    bower install slickgrid-column-group
     
 ######Usage
 
